@@ -6,7 +6,11 @@
       </ion-toolbar>
     </ion-header>
     <ion-content>
-      <h2>As memórias devem ser adicionadas</h2>
+      <ion-list>
+        <ion-item>Felipe</ion-item>
+        <ion-item>Davi</ion-item>
+        <ion-item>José</ion-item>
+      </ion-list>
     </ion-content>
   </ion-page>
 </template>
@@ -18,6 +22,8 @@ import {
   IonTitle,
   IonContent,
   IonToolbar,
+  IonList,
+  IonItem,
 } from "@ionic/vue";
 export default {
   components: {
@@ -26,6 +32,8 @@ export default {
     IonTitle,
     IonContent,
     IonToolbar,
+    IonList,
+    IonItem,
   },
 };
 </script>
