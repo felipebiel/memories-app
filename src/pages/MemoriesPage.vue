@@ -2,7 +2,7 @@
   <base-layout pageTitle="Lista de Memórias">
     <ion-list>
       <ion-item
-        router-link="`/memories/${memory.id}`"
+        :router-link="`/memories/${memory.id}`"
         v-for="memory in memories"
         :key="memory.id"
       >
