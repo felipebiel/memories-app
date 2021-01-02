@@ -1,7 +1,7 @@
 <template>
   <base-layout pageTitle="Lista de Memórias">
     <ion-list>
-      <ion-item>Felipe</ion-item>
+      <ion-item router-link="/memories/1">Felipe</ion-item>
       <ion-item>Davi</ion-item>
       <ion-item>José</ion-item>
     </ion-list>
