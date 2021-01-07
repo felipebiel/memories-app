@@ -1,5 +1,7 @@
 <template>
-  <base-layout pageTitle="Lista de Memórias"> ADD NEW </base-layout>
+  <base-layout pageTitle="Nova memória" pageDefaultBackLink="/memories">
+    ADD NEW
+  </base-layout>
 </template>
 
 <script>
