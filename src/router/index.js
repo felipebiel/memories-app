@@ -12,6 +12,10 @@ const routes = [
     component: MemoriesPage
   },
   {
+    path: '/memories/add',
+    component: () => import('../pages/AddMemoryPage')
+  },
+  {
     path: '/memories/:id',
     component: () => import('../pages/MemoriesDetails')
   }
