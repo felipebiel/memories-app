@@ -1,7 +1,7 @@
 <template>
   <base-layout pageTitle="Lista de Memórias">
     <template v-slot:actions-end>
-      <ion-button>
+      <ion-button router-link="/memories/add">
         <ion-icon slot="icon-only" :icon="add"></ion-icon>
       </ion-button>
     </template>
